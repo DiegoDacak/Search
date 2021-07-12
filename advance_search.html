@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Advance Search</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #F6F6F6;">
+            <a class="logo_link" href="index.html"><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></a>
+            <ul style="position: absolute; right: 0px;" class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Google Search</a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav style="border-bottom: 1px solid #ebebeb" class="navbar">
+            <div class="appbar">
+                <label style="margin-left: 10px">Advance search</label>
+            </div>
+        </nav>
+
+        <div class="form_div">
+            <form  action="https://google.com/search">
+                <h class="col-sm-3 control-label">Find page with...</h>
+
+                <div class="form-group" style="display: flex; margin-top: 1rem">
+                    <label class="advance_col col-2">all these words:</label>
+                    <input style="height: 30px" autocomplete="off"  type="text" class="form-control" name="as_q">
+                    <label class="advance_col col-4">type the important words: tri-colour rat terrier</label>
+                </div>
+
+                <div class="form-group" style="display: flex; margin-top: 1rem">
+                    <label class="advance_col col-2">this exact word of phrase:</label>
+                    <input style="height: 30px" autocomplete="off"  type="text" class="form-control" name="as_epq">
+                    <label class="advance_col col-4">Put exact words in quotes: "rat terrier"</label>
+                </div>
+
+                <div class="form-group" style="display: flex; margin-top: 1rem">
+                    <label class="advance_col col-2">any of these words:</label>
+                    <input style="height: 30px" autocomplete="off"  type="text" class="form-control" name="as_oq">
+                    <label class="advance_col col-4">Type OR between all the words you want: miniature OR standard</label>
+                </div>
+
+                <div class="form-group" style="display: flex; margin-top: 1rem">
+                    <label class="advance_col col-2">none of these words:</label>
+                    <input style="height: 30px" autocomplete="off"  type="text" class="form-control" name="as_eq">
+                    <label class="advance_col col-4">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label>
+                </div>
+
+                <div class="form-group" style="display: flex; margin-top: 1rem">
+                    <label class="advance_col col-2"></label>
+                    <div style="width: 100%; position: relative">
+                        <button style="font-size: 0.8rem; position: absolute; right: 0px;" type="submit" class="btn btn-primary">Advanced search</button>
+                    </div>
+                    <label class="advance_col col-4"></label>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
